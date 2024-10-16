@@ -2,7 +2,7 @@ import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
 import connectDB from './configs/mongodb.js';
-import axios from 'axios';
+
 // app config
 const PORT = process.env.PORT || 8000;
 const app = express();
