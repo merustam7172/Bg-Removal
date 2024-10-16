@@ -13,7 +13,7 @@ app.use(cors());
 await connectDB()
 
 //API routes
-app.get('/', (req, res) => res.send("API Working"))
+app.get('/', (req, res) => res.send("API is Working"))
 
 app.listen(PORT, () => {
     console.log("Server is Listening on port " + PORT);
